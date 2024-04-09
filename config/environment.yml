@@ -1,0 +1,28 @@
+# This file allows you to configure your python environment quickly for prednet.
+# Please refer to the conda documentation for more info:
+# https://conda.io/docs/user-guide/tasks/manage-environments.html
+
+name: prednet
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.6
+  - cudatoolkit=10.0
+  - pip
+
+  - pip:
+    - tensorflow-gpu==1.15
+    - keras
+    - hickle
+    - matplotlib
+    - seaborn
+    - requests
+    - sklearn
+    - pandas
+    - azureml-sdk
+    - numpy
+    - pylint # optional
+    - pillow
+    - azure-storage-blob==2.1.0

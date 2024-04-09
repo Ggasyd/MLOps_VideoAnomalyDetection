@@ -1,0 +1,8 @@
+{
+    "subscription_id": "",
+    "resource_group": "wopauli_videoanom_rg",
+    "workspace_name": "videoanomws",
+    "workspace_region": "westus2",
+    "cpu_compute": "cpu-cluster",
+    "gpu_compute": "gpu-cluster",
+}
